@@ -33,3 +33,7 @@ $config = new Config(['/path-to-your-config.yml'], $options);
 ```
 
 If you go for the first option, you need to set the reader _before_ you load the yaml-file.
+
+## Exceptions
+
+If the yaml file couldn't be parsed, it will throw a `Symfony\Component\Yaml\Exception\ParseException`.
