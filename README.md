@@ -4,7 +4,7 @@
 
 To keep the [maer/config](https://github.com/magnus-eriksson/config) library small and without dependencies, it doesn't support yaml-files out of the box.
 
-If you want to use yaml-files, you can install this reader and regiter it for the yaml-file extension. This extension requires you to use maer/config version 2+.
+If you want to use yaml-files, you can install this reader and register it for the yaml-file extension. This extension requires you to use maer/config version 2+.
 
 ## Install
 
