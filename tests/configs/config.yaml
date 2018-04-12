@@ -1,0 +1,13 @@
+hello:
+    world: "foo bar yaml"
+root:
+    array:
+        first: original
+        second: original
+    string: "bar foo"
+    multiline: |
+        hello
+        world
+list:
+    - hello
+    - world
