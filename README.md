@@ -20,12 +20,12 @@ You need to register the reader and associate it with the `yml`-file extension.
 
 ```php
 # Either add the reader to an existing config instance
-$config->setReader('yml', new MyYamlReader);
+$config->setReader('yml', new Maer\Config\Yaml\Reader);
 
 # or you can add the reader when you instantiate the config class as a second argument
 $options = [
     'readers' => [
-        'yml' => new MyYamlReader,
+        'yml' => new Maer\Config\Yaml\Reader,
     ],
 ];
 
